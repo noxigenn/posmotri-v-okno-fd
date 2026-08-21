@@ -49,7 +49,7 @@ ol {
   gap: 30px;
 }
 
-.search-form{
+.search-form {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -59,6 +59,7 @@ ol {
   height: 298px;
   overflow-y: auto;
   overflow-x: none;
+  position: relative;
 }
 
 .content__details {
@@ -66,15 +67,12 @@ ol {
   height: 100%;
 }
 
-.title {
-  margin-bottom: 20px;
-} 
-
  .result__video-container {
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
   cursor: pointer;
+  position: relative;
 }
 
 .result__video {
@@ -111,7 +109,6 @@ ol {
   font-size: 18px;
   line-height: auto;
   font-style: normal;
-  font-weight: 400;
   margin-bottom: 5px;
 }
 
@@ -122,6 +119,7 @@ ol {
   line-height: 94%;
   letter-spacing: 0;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .content__accent {
@@ -179,8 +177,8 @@ ol {
   font-style: normal;
   font-size: 18px;
   border-width: 1px 0 1px 0;    
-  border-style: solid;          
-  border-color: #fff;  
+  border-style: solid;
+  border-color: #fff;
   color: #fff;
   background-color: #1b1919;
   appearance: none;
@@ -249,7 +247,7 @@ ol {
   text-decoration: underline;
 }
 
-.button::focus {
+.button:focus {
   outline: none;
 }
 
@@ -263,7 +261,7 @@ ol {
 }
 
 .content__list-item {
-  padding: 0 3px 0 3px;
+  padding: 0 3px;
 }
 
 .content__list:first-child {
@@ -271,11 +269,11 @@ ol {
 }
 
 .content__list-item:active {
-    background-color: #545050;
+  background-color: #545050;
 }
 
 .content__list-item:hover {
-     text-decoration: underline;
+  text-decoration: underline;
 }
 
 .content__list-item:focus {
@@ -284,17 +282,7 @@ ol {
 
 .content__list-item:focus-visible {
   outline: 1px solid #fff;
-  
 }
-
-.result__video-container {
-  position: relative;
-}
-
-.content__list-container {
-   position: relative;
-}
-
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
