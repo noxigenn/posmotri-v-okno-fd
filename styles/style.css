@@ -129,6 +129,7 @@ ol {
 .content__card-link {
   text-decoration: none;
   color: #fff;
+  display: block;
 }
 
 .content__video-card-title {
@@ -176,7 +177,7 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-size: 18px;
-  border-width: 1px 0 1px 0;    
+  border-width: 1px 0 1px 0;
   border-style: solid;
   border-color: #fff;
   color: #fff;
@@ -254,10 +255,6 @@ ol {
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
-}
-
-.content__card-link {
-  display: block;
 }
 
 .content__list-item {
